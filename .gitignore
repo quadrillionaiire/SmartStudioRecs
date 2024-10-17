@@ -159,6 +159,8 @@ cython_debug/
 
 #ignore large files
 im.db.zip
+im.db
+
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
