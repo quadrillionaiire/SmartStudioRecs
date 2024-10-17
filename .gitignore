@@ -164,6 +164,14 @@ git add .gitignore
 git commit -m "Update .gitignore to exclude im.db"
 git push
 
+im.db.zip
+im.db
+git rm --cached im.db.zip
+git add .gitignore
+git commit -m "Add im.db.zip to .gitignore"
+git push
+
+
 
 
 
