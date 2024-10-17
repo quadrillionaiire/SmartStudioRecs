@@ -158,8 +158,12 @@ cython_debug/
 .DS_Store
 
 #ignore large files
-.im.db.zip
-.im.db
+git rm --cached im.db
+im.db
+git add .gitignore
+git commit -m "Update .gitignore to exclude im.db"
+git push
+
 
 
 
