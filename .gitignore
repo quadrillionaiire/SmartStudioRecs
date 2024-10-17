@@ -158,8 +158,11 @@ cython_debug/
 .DS_Store
 
 #ignore large files
-im.db.zip
-im.db
+.im.db.zip
+.im.db
+
+
+
 
 
 # PyCharm
