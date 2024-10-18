@@ -159,7 +159,7 @@ cython_debug/
 
 #ignore large files
 bom.movie_gross.csv
-im.db
+data/im.db
 
 
 
