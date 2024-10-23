@@ -53,7 +53,7 @@ Factors Influencing Success:
    - Studios like BV, Fox, Universal, and Warner Bros consistently produce high-grossing films, particularly when they work with established directors and franchises.
 
 - Franchise Power:
-Franchise movies were analyzed using a binary feature that identified whether a movie belonged to a franchise. The data showed that franchise films significantly outperformed non-franchise films in 2018. Major franchises like Avengers, Jurassic Park, and Deadpool generated higher revenues due to brand loyalty and anticipation for sequels.
+   - Franchise movies were analyzed using a binary feature that identified whether a movie belonged to a franchise. The data showed that franchise films significantly outperformed non-franchise films in 2018. Major franchises like Avengers, Jurassic Park, and Deadpool generated higher revenues due to brand loyalty and anticipation for sequels.
 
    - Avengers: Infinity War, an action-adventure franchise movie, generated over $16 billion in 2018, far surpassing non-franchise films.
    - Ralph Breaks the Internet, another franchise film, brought in half the revenue of Avengers but still performed significantly better than non-franchise films in its genre.
