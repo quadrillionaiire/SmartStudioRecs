@@ -37,13 +37,12 @@ Creating New Features:
 - A calculated column for total revenue was added by summing domestic and foreign gross.
 - Director loyalty was assessed by counting the number of collaborations between a director and studio.
 
-
 ## Analysis & Results
 Top Performing Genres:
 
-- Adventure and Action genres consistently generate the highest revenue, with Adventure pulling in nearly $70 billion and Action producing over $60 billion in 2018 alone.
-Genres that combine Adventure and Action with Sci-Fi,
-- Fantasy, or Animation also perform strongly, indicating that studios should focus on these combinations for box office success.
+Using 2018 data, we performed an ANOVA test to determine whether there are significant differences in box office performance across genres. The results indicate that genres do not perform equally. The Null Hypothesis that all genres on average perform the same in the box office in 2018 was rejected (p-value < 0.05).
+
+We used Tukey’s HSD Post-Hoc Test to identify specific genre pairs that have significantly different box office performance. The test shows that Adventure movies are the top performers, with an additional $44,750,000 in total gross revenue compared to the baseline genre. Action, Comedy, Sci-Fi, Drama, and Animation also perform well, surpassing the new studio’s target revenue of $2,128,500,000.
   
 Factors Influencing Success:
 - Director-Genre Alignment: 
@@ -54,28 +53,29 @@ Factors Influencing Success:
    - Studios like BV, Fox, Universal, and Warner Bros consistently produce high-grossing films, particularly when they work with established directors and franchises.
 
 - Franchise Power:
-   - Movies that are part of a franchise: (e.g., Avengers, Deadpool, Jurassic Park) outperform non-franchise movies by a significant margin.
-   - Franchise movies bring in higher revenue, likely due to brand loyalty and audience anticipation for sequels.
-  
+Franchise movies were analyzed using a binary feature that identified whether a movie belonged to a franchise. The data showed that franchise films significantly outperformed non-franchise films in 2018. Major franchises like Avengers, Jurassic Park, and Deadpool generated higher revenues due to brand loyalty and anticipation for sequels.
+
+   - Avengers: Infinity War, an action-adventure franchise movie, generated over $16 billion in 2018, far surpassing non-franchise films.
+   - Ralph Breaks the Internet, another franchise film, brought in half the revenue of Avengers but still performed significantly better than non-franchise films in its genre.
+   
 Director vs Studio Loyalty (T-Test):
-- A t-test was conducted to compare revenue between directors who consistently work with the same studio and those who do not.
-- The results showed a statistically significant difference, with directors like the Russo Brothers bringing in higher revenue when working with loyal studios.
-- The T-statistic of 2.63 and P-value of 0.0086 indicate that loyal director-studio partnerships significantly contribute to box office success.
+
+A t-test was conducted to compare the total revenue between directors who consistently work with the same studio and those who do not. The results were statistically significant (T-statistic: 2.63, P-value: 0.0086), indicating that directors with established studio partnerships tend to produce higher-grossing films. For instance, movies directed by the Russo Brothers consistently generate billions in revenue, particularly when working with studios like BV or Fox.
+
+   - Top-grossing studios in 2018 included BV, Fox, Universal, and Warner Bros, with films like Avengers: Infinity War directed by the Russo Brothers pulling in over $45 billion.
 
 ## Conclusions
 The findings highlight several key factors that can drive box office success for the new studio:
 
-- Adventure and Action genres should be the studio’s primary focus, with particular attention to combining them with Sci-Fi and Fantasy.
-- Franchise development is essential. Investing in long-term franchises will generate steady revenue over time.
-- Director loyalty plays a critical role. Studios should aim to collaborate consistently with successful directors to maintain brand strength and ensure audience retention.
+- Adventure and Action genres should be the studio’s focus, as they consistently generate the highest box office revenue, exceeding the target annual revenue of $2,128,500,000.
+- Franchise development is key to long-term financial success. Studios should prioritize creating or investing in franchises that attract loyal audiences and provide opportunities for sequels.
+- Director-studio loyalty leads to better financial outcomes. New studios should focus on building strong, long-term relationships with successful directors who specialize in high-grossing genres and franchises.
+
 
 ### **Additional Insights & Recommendations**
-1. Franchise Development:
-The studio should prioritize creating franchises. Building multi-movie series like Avengers or Jurassic Park provides long-term profitability and audience engagement.
-2. Director and Talent Loyalty:
-Maintaining long-term relationships with proven directors is key to consistent success. Directors with established track records in popular genres are critical assets.
-3. Genre Strategy:
-Focus on producing Adventure and Action films, particularly those with elements of Sci-Fi, Fantasy, or Animation. These genres have a wide audience base and consistently bring in high revenue.
+1. Invest in High-Revenue Genres: Genres like Adventure, Action, and Sci-Fi outperform others and should be the core focus for new releases.
+2. Develop Franchise Films: Building a long-term franchise strategy will ensure consistent revenue, as franchise films outperform standalone movies.
+3. Foster Talent Relationships: Collaborating with proven directors will not only improve movie performance but also contribute to the studio’s brand and audience retention.
 
  ### **Overall Strategic Enhancements**
 - Develop a strong brand around franchises. Franchises bring predictable revenue and brand loyalty.
