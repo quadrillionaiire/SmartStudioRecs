@@ -41,19 +41,25 @@ Creating New Features:
 Top Performing Genres:
 
 - Adventure and Action genres consistently generate the highest revenue, with Adventure pulling in nearly $70 billion and Action producing over $60 billion in 2018 alone.
-Genres that combine Adventure and Action with Sci-Fi, Fantasy, or Animation also perform strongly, indicating that studios should focus on these combinations for box office success.
+Genres that combine Adventure and Action with Sci-Fi,
+- Fantasy, or Animation also perform strongly, indicating that studios should focus on these combinations for box office success.
+  
 Factors Influencing Success:
+- Director-Genre Alignment: 
+   - Directors who specialize in certain genres tend to have consistent success.
+   - For example, Joe and Anthony Russo have proven to be top-performing directors in the Action-Adventure genre, contributing to huge successes like the Avengers franchise.
+  
+- Studio Performance:
+   - Studios like BV, Fox, Universal, and Warner Bros consistently produce high-grossing films, particularly when they work with established directors and franchises.
 
-Director-Genre Alignment: 
-- Directors who specialize in certain genres tend to have consistent success. For example, Joe and Anthony Russo have proven to be top-performing directors in the Action-Adventure genre, contributing to huge successes like the Avengers franchise.
-Studio Performance: Studios like BV, Fox, Universal, and Warner Bros consistently produce high-grossing films, particularly when they work with established directors and franchises.
-Franchise Power:
-
-Movies that are part of a franchise (e.g., Avengers, Deadpool, Jurassic Park) outperform non-franchise movies by a significant margin.
-Franchise movies bring in higher revenue, likely due to brand loyalty and audience anticipation for sequels.
+- Franchise Power:
+   - Movies that are part of a franchise: (e.g., Avengers, Deadpool, Jurassic Park) outperform non-franchise movies by a significant margin.
+   - Franchise movies bring in higher revenue, likely due to brand loyalty and audience anticipation for sequels.
+  
 Director vs Studio Loyalty (T-Test):
-
-A t-test was conducted to compare revenue between directors who consistently work with the same studio and those who do not. The results showed a statistically significant difference, with directors like the Russo Brothers bringing in higher revenue when working with loyal studios. The T-statistic of 2.63 and P-value of 0.0086 indicate that loyal director-studio partnerships significantly contribute to box office success.
+- A t-test was conducted to compare revenue between directors who consistently work with the same studio and those who do not.
+- The results showed a statistically significant difference, with directors like the Russo Brothers bringing in higher revenue when working with loyal studios.
+- The T-statistic of 2.63 and P-value of 0.0086 indicate that loyal director-studio partnerships significantly contribute to box office success.
 
 ## Conclusions
 The findings highlight several key factors that can drive box office success for the new studio:
@@ -77,7 +83,6 @@ Focus on producing Adventure and Action films, particularly those with elements 
 
 - Leverage genre performance data to invest in high-revenue genres like Adventure, Action, and Animation.
  
-
  ### Next Steps
 - Franchise Feasibility Study: Conduct a deeper analysis into potential franchises that align with the studio’s brand and audience.
 - Director Partnership Program: Build long-term contracts with proven directors who specialize in high-grossing genres.
