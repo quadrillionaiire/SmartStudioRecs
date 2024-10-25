@@ -102,7 +102,7 @@ The findings highlight several key factors that can drive box office success for
 - Genre-Specific Marketing: Develop targeted marketing strategies for Adventure and Action films, emphasizing Sci-Fi and Fantasy crossovers.
  ## For More Information
  
- See the full analysis in the [Jupyter Notebook](https://github.com/quadrillionaiire/Phase-2-Project/blob/main/notebooks/phase_2_project.ipynb) or review this [presentation]
+ See the full analysis in the [Jupyter Notebook](https://github.com/quadrillionaiire/Phase-2-Project/blob/main/notebooks/phase_2_project.ipynb) or review this [presentation](https://www.canva.com/design/DAGUdTq9QgM/nAR4IIAtVCl-3wPvQOg2Yw/view?utm_content=DAGUdTq9QgM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 [Original data source from IMDb](https://www.imdb.com/)
 [Original data source from Box Office Mojo]([https://www.imdb.com/](https://www.boxofficemojo.com/))
