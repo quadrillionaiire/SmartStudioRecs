@@ -74,7 +74,7 @@ A t-test was conducted to compare the total revenue between directors who consis
 
    - Top-grossing studios in 2018 included BV, Fox, Universal, and Warner Bros, with films like Avengers: Infinity War directed by the Russo Brothers pulling in over $45 billion.
 
-  ![directorvsstudio](<images/output.png>)   
+  ![directorvsstudio.png](<images/directorvsstudio.png>)   
 
 ## Conclusions
 The findings highlight several key factors that can drive box office success for the new studio:
