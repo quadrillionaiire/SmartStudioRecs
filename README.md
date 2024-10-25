@@ -1,6 +1,6 @@
 
 # Phase-2-Project
-![movie photo](<premium_photo-1661675440353-6a6019c95bc7.jpeg>)
+![movie photo](<images/premium_photo-1661675440353-6a6019c95bc7.jpeg>)
 # Analysis of Movie Data for Business Insights
 
 ## Overview
@@ -37,8 +37,16 @@ Creating New Features:
 - A calculated column for total revenue was added by summing domestic and foreign gross.
 - Director loyalty was assessed by counting the number of collaborations between a director and studio.
 
+Measure of Success
+
+We aim to establish a measure of success that the new studio can strive to achieve, which will also help shape our recommendations. Since the studio's goal is to maximize revenue, we will define success as the annual gross revenue of the 5th highest-performing competitor studio.
+
+ ![totalgrossperstudio](<images/total gross per studio.png>)   
+
 ## Analysis & Results
 Top Performing Genres:
+
+![top performing generes.png](<images/top performing generes.png>)
 
 Using 2018 data, we performed an ANOVA test to determine whether there are significant differences in box office performance across genres. The results indicate that genres do not perform equally. The Null Hypothesis that all genres on average perform the same in the box office in 2018 was rejected (p-value < 0.05).
 
@@ -57,12 +65,16 @@ Factors Influencing Success:
 
    - Avengers: Infinity War, an action-adventure franchise movie, generated over $16 billion in 2018, far surpassing non-franchise films.
    - Ralph Breaks the Internet, another franchise film, brought in half the revenue of Avengers but still performed significantly better than non-franchise films in its genre.
+
+  ![franchisepower.png](<images/franchisepower.png>)
    
 Director vs Studio Loyalty (T-Test):
 
 A t-test was conducted to compare the total revenue between directors who consistently work with the same studio and those who do not. The results were statistically significant (T-statistic: 2.63, P-value: 0.0086), indicating that directors with established studio partnerships tend to produce higher-grossing films. For instance, movies directed by the Russo Brothers consistently generate billions in revenue, particularly when working with studios like BV or Fox.
 
    - Top-grossing studios in 2018 included BV, Fox, Universal, and Warner Bros, with films like Avengers: Infinity War directed by the Russo Brothers pulling in over $45 billion.
+
+  ![directorvsstudio](<images/output.png>)   
 
 ## Conclusions
 The findings highlight several key factors that can drive box office success for the new studio:
@@ -89,6 +101,11 @@ The findings highlight several key factors that can drive box office success for
 - Director Partnership Program: Build long-term contracts with proven directors who specialize in high-grossing genres.
 - Genre-Specific Marketing: Develop targeted marketing strategies for Adventure and Action films, emphasizing Sci-Fi and Fantasy crossovers.
  ## For More Information
+ 
+ See the full analysis in the [Jupyter Notebook](https://github.com/quadrillionaiire/Phase-2-Project/blob/main/notebooks/phase_2_project.ipynb) or review this [presentation]
+
+[Original data source from IMDb](https://www.imdb.com/)
+[Original data source from Box Office Mojo]([https://www.imdb.com/](https://www.boxofficemojo.com/))
 
  ## Repository Structure 
 
