@@ -1,5 +1,5 @@
 
-# Phase-2-Project
+# Smart Studio Recommendations
 ![movie photo](<images/premium_photo-1661675440353-6a6019c95bc7.jpeg>)
 # Analysis of Movie Data for Business Insights
 
