@@ -4,7 +4,7 @@
 # Analysis of Movie Data for Business Insights
 
 ## Overview
-This report analyzes data from Box Office Mojo and IMDB to identify key factors that influence box office success. The primary goal is to help a new movie studio make data-driven decisions to optimize revenue by examining genre performance, the impact of director loyalty, and the power of franchises. The findings from this analysis will provide strategic insights for movie selection, talent retention, and franchise development to maximize box office gross.
+This report analyzes data from Box Office Mojo and IMDB to identify key factors that influence box office success. The primary goal is to help a new movie studio make data-driven decisions to optimize revenue by examining genre performance, the impact of director loyalty, and the power of franchises. In addition to this, this project analyzes movie data to predict user preferences and suggest movies based on similarities and historical viewing patterns. The goal is to provide actionable insights to movie studios that can help optimize movie selection strategies, improve marketing, and develop successful franchises.
 
 ## Business Problem 
 A new movie studio is looking to produce films that will generate significant box office revenue. To guide their business decisions, the studio needs insights into how various factors like genre, director-studio loyalty, and franchise involvement affect total gross revenue. The analysis addresses three main questions:
@@ -36,6 +36,13 @@ Creating New Features:
 - A franchise column was created to identify franchise movies.
 - A calculated column for total revenue was added by summing domestic and foreign gross.
 - Director loyalty was assessed by counting the number of collaborations between a director and studio.
+
+### Recommendation System
+
+Our recommendation system uses a hybrid approach combining collaborative filtering and content-based filtering to provide personalized movie suggestions. We also predict whether a movie will be high-grossing based on its attributes.
+
+Collaborative Filtering: This method identifies patterns in user behavior and recommends movies based on the preferences of similar users.
+Content-Based Filtering: Recommends movies that are similar to those a user has previously watched, based on movie attributes such as genre and director.
 
 Measure of Success
 
@@ -75,6 +82,13 @@ A t-test was conducted to compare the total revenue between directors who consis
    - Top-grossing studios in 2018 included BV, Fox, Universal, and Warner Bros, with films like Avengers: Infinity War directed by the Russo Brothers pulling in over $45 billion.
 
   ![directorvsstudio.png](<images/directorvsstudio.png>)   
+### How the Recommendation System Adds Value
+
+The recommendation system helps movie studios in the following ways:
+
+- Predicting High-Grossing Movies: By analyzing past performance, the system helps the studio identify potential box office hits.
+- Personalized Recommendations: By analyzing user preferences and movie features, we provide tailored movie suggestions, which can guide marketing campaigns and streaming platform decisions.
+- Data-Driven Decisions: The system allows studios to make more informed decisions about genre focus, director collaborations, and franchise development.
 
 ## Conclusions
 The findings highlight several key factors that can drive box office success for the new studio:
@@ -82,6 +96,7 @@ The findings highlight several key factors that can drive box office success for
 - Adventure and Action genres should be the studio’s focus, as they consistently generate the highest box office revenue, exceeding the target annual revenue of $2,128,500,000.
 - Franchise development is key to long-term financial success. Studios should prioritize creating or investing in franchises that attract loyal audiences and provide opportunities for sequels.
 - Director-studio loyalty leads to better financial outcomes. New studios should focus on building strong, long-term relationships with successful directors who specialize in high-grossing genres and franchises.
+- The movie recommendation system not only predicts high-grossing films but also personalizes recommendations for users, helping studios optimize their movie selection and marketing strategies based on consumer preferences and historical trends.
 
 
 ### **Additional Insights & Recommendations**
